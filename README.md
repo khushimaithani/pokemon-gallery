@@ -6,9 +6,7 @@ This project was created to practice working with APIs, JavaScript fetch(), JSON
 
 🌐 Live Demo
 
-Add your GitHub Pages link here after deploying:
-
-https://yourusername.github.io/pokemon-universe-gallery/
+https://github.com/khushimaithani/pokemon-gallery/tree/master
 
 ✨ Features
 
@@ -85,7 +83,7 @@ Loading more Pokémon
 
 Clone the repository:
 
-git clone https://github.com/YOUR-USERNAME/pokemon-universe-gallery.git
+git clone https://github.com/khushimaithani/pokemon-universe-gallery.git
 
 Open the project folder in VS Code.
 
@@ -93,11 +91,6 @@ Open index.html using Live Server.
 
 Or simply open index.html in a browser. A local server is recommended when working with APIs.
 
-📸 Project Preview
-
-Add screenshots of your project here:
-
-![Pokémon Universe Gallery](screenshot.png)
 
 🎯 Learning Goals
 
