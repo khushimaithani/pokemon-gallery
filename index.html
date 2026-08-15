@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pokémon Universe Gallery powered by PokéAPI">
+  <title>Pokémon Universe Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">POKÉDEX • API PROJECT</p>
+      <h1>Pokémon Universe</h1>
+      <p class="subtitle">Explore Pokémon, filter by type, search by name, and flip cards to discover their specialties.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls" aria-label="Pokémon controls">
+      <div class="control-group">
+        <label for="typeFilter">Filter by Type</label>
+        <select id="typeFilter">
+          <option value="all">All Types</option>
+        </select>
+      </div>
+
+      <div class="control-group search-group">
+        <label for="searchInput">Search Pokémon</label>
+        <input id="searchInput" type="search" placeholder="Search by name..." autocomplete="off">
+      </div>
+
+      <button id="resetBtn" class="reset-btn" type="button">Reset</button>
+    </section>
+
+    <div class="status-row">
+      <p id="status" aria-live="polite">Loading Pokémon...</p>
+      <p id="count"></p>
+    </div>
+
+    <section id="pokemonGrid" class="pokemon-grid" aria-live="polite"></section>
+
+    <div id="emptyState" class="empty-state hidden">
+      <div class="empty-icon">🔎</div>
+      <h2>No Pokémon found</h2>
+      <p>Try another name or choose a different type.</p>
+    </div>
+
+    <div class="load-more-wrap">
+      <button id="loadMoreBtn" class="load-more" type="button">Load More</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Data provided by <a href="https://pokeapi.co/" target="_blank" rel="noopener noreferrer">PokéAPI</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
